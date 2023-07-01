@@ -63,7 +63,7 @@
         }
 
         $(document).on('click', '.removeThis', function(){
-            $(this).parent().parrent().remove();
+            $(this).parent().parent().remove();
         });
     </script>
 </body>
